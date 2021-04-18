@@ -1,6 +1,9 @@
 'use strict';
 
 const AWS = require('aws-sdk');
+
+// add new const
+
 const utils = require('../utils');
 
 module.exports.handler = function(event, context, callback){
